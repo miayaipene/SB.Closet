@@ -1,0 +1,36 @@
+body{
+    background-image: url(Imagen/fondo%203.webp);
+}
+div{
+    width: 400px;
+    background: #dd7f8f;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family:cursive;
+    color: #edced3;}
+a {
+    font-size: 16px;
+    color: aliceblue;
+    border: 0;
+    border-radius: 25px;
+    background-color: #edced3;
+    box-shadow: green;
+    cursor: pointer;
+    width: 100%;
+    padding: 12px;
+
+}
+a:hover {
+    background-color: #c0c080;
+}
+a {
+    width: 400px;
+    background: #dd7f8f;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family:cursive;
+    color: #edced3;}

@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #edced3; 
+}
+
+header {
+    background-color: #dd7f8f; 
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.header-content {
+    display: flex; /* Usar Flexbox para alinear logo y título */
+    align-items: center; /* Alinea verticalmente */
+    font-family: 'DynaPuff';
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0; 
+    font-size: 54px; 
+}
+header {
+    display: flex;
+    align-items: center; /* Alinea verticalmente */
+    justify-content: space-between; /* Espacio entre logo y menú */
+}
+
+.logo {
+    height: 100px; /* Ajusta la altura según sea necesario */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+nav {
+    flex-grow: 1; /* Permite que el nav ocupe el espacio restante */
+}
+
+h1 {
+    margin-left: 20px; /* Espacio a la izquierda del título */
+}
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.slider {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide-container {
+    position: relative;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.comprar {
+    background-color: #c0c080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.comprar:hover {
+    background-color: #dd7f8f; /* Color al pasar el ratón */
+}
+
+img {
+    height: 600px;
+    
+}
+.comprar {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #c0c080; /* Color del botón */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none; /* Sin subrayado */
+}
+
+.Titulo {
+    color: #dd7f8f;
+}
+.socials{
+    display: flex;
+}
+.social{
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #dd7f8f;
+    border-radius: 50%;
+}
+.social:hover{
+    background-color: #dd7f8f;
+}
+.social img{
+    margin: 8px 0 0 10px;
+}
+.horario{
+    padding: 100px 50px;
+    background-color: #edced3;
+}
+.horario-info h2{
+    font-size: 75px;
+    color: #dd7f8f;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.horario-txt{
+    display: flex;
+    justify-content: space-between;
+}
+.txt{
+    color: #dd7f8f;
+}
+.txt h4{
+    font-size: 18px;
+    color: #dd7f8f;
+    margin-bottom: 30px;
+}
+.txt p{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.map-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si el contenedor tiene altura */
+    height: 100vh; /* Opcional: altura total de la ventana */
+}
+
+.map-container iframe {
+    max-width: 100%; /* Asegura que el mapa sea responsivo */
+    height: 450px; /* Ajusta la altura según sea necesario */
+}
+.footer{
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    color: #dd7f8f;
+}
+li{
+    font-size: 24px;
+}
