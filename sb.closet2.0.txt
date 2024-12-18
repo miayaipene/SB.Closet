@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>registrate</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h3> ✧.*REGISTRATE Y UNETE A NOSOTROS!*.✧</h3>
+    <form action="#"  method="get">
+        <label>Nombre: <input type="text" name="nonbre" placeholer="Escribe tu nombre y Apellido" autofoco size="35" maxlength="45"></label><br>
+        <label>Contacto: <br><textarea name="consulta" cols="40" rows="4" minlengh="5" maxlength="200">escribe tu consulta</textarea></label><br>
+        <p><input type="submit" value="Enviar"></p>
+        <label> Sexo: Hombre <input type="radio" name="sexo" value="h"></label>
+        <label> Mujer <input type="radio" name="sexo" value="m"></label>
+        
+        <p>Acepto las condiciones de privacidad: <input type="checkbox" name="cond"></p>
+        <p> <input type="reset" value="Borrar">
+         <input type="reset" value="Enviar"></p>
+        
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background: skyblue;
+}
+
+h3{
+    color: aliceblue;
+    
+}
+p{
+    color: aliceblue;
+}
+label{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sb. closet</title>
+</head>
+<body>
+    <h1>SB.Closet</h1>
+    <a href="#">registrate</a>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario 1</title>
+    <link rel="stylesheet" href="estilos1.css">
+</head>
+<body>
+    <h1>₊˚ˑ༄ؘRealiza tu pedido༄ؘˑ˚₊</h1>
+    
+    <form action="formulario.php" method="post">
+    <fieldset>
+        <legend><p>Ropa</p>
+        </legend>
+        <label> Casaca<input type="radio" name="Ropa" value="C"></label> <br>
+                <label> Polo<input type="radio" name="Ropa" value="C"></label> <br>
+                        <label> Pantalon<input type="radio" name="Ropa" value="C"></label> <br>
+                        
+          <h2>Tamaño</h2>
+           <label> S<input type="radio" name="tamaño" value="s"></label> <br>
+            <label> M<input type="radio" name="tamaño" value="m"></label> <br>
+             <label> L<input type="radio" name="tamaño" value="l"></label> <br>
+    </fieldset>
+     
+     <fieldset>
+         <legend><p>Datos de entrega</p></legend>
+         <p>Nombre <input type="nombre" placeholder="escribir tu nombre" autofocus size="30" maxlength="20" minlength="3" required></p>
+        <p>Dirección <input type="Direccion"></p>
+        <p>Teléfono <input type="Telefono"></p>
+        <p>Instrucciones especiales </p>
+        <br>
+        <textarea name="instrucciones especiales" cols="60" rows="10"></textarea>
+        <br>
+        
+     </fieldset>
+     
+     <fieldset>
+         <legend><p>Método de pago</p></legend>
+         <select name="Efectivo">
+         <option value="Efectivo"> Efectivo</option>
+         <option value="Yape">Yape</option>
+         <option value="Tarjeta">Tarjeta</option>
+         </select>
+     </fieldset>
+     </form>
+     <a href="#">Iniciio</a>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background: pink;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+label{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+{
+    color: aliceblue;
+}
